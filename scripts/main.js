@@ -8,7 +8,7 @@ var mubOsu = {
   intervals: {
 
     // Check if the site is ready every millisecond
-    readyInterval: setInterval(mubOsu.methods.checkScriptReady, 1)
+    readyInterval: setInterval(this.methods.checkScriptReady, 1)
   },
 
   methods: {
